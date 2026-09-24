@@ -1,0 +1,17 @@
+{
+  "name": "masking",
+  "private": true,
+  "version": "0.1.0",
+  "description": "RQ4: PII masking preprocessing + VLM grounding benchmark",
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.mjs",
+    "mask": "node mask.mjs",
+    "benchmark": "node benchmark.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.1",
+    "dotenv": "^17.4.2",
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,508 @@
+[
+  {
+    "id": "products-admin",
+    "url": "/products",
+    "role": "admin",
+    "pii": [],
+    "items": [
+      {
+        "id": "search-box",
+        "desc": "the search input above the product table",
+        "box": {
+          "x": 236,
+          "y": 68,
+          "w": 240,
+          "h": 33
+        }
+      },
+      {
+        "id": "category-dropdown",
+        "desc": "the category filter dropdown in the toolbar",
+        "box": {
+          "x": 486,
+          "y": 67,
+          "w": 134,
+          "h": 35
+        }
+      },
+      {
+        "id": "add-button",
+        "desc": "the blue button that adds a new product",
+        "box": {
+          "x": 724,
+          "y": 67,
+          "w": 114,
+          "h": 35
+        }
+      },
+      {
+        "id": "rating-filter-star4",
+        "desc": "the 4th star of the star-rating filter in the toolbar",
+        "box": {
+          "x": 681,
+          "y": 77,
+          "w": 16,
+          "h": 16
+        }
+      },
+      {
+        "id": "chart-snack-bar",
+        "desc": "the orange \"Snack\" bar inside the \"Products by category\" chart",
+        "box": {
+          "x": 343,
+          "y": 192,
+          "w": 210,
+          "h": 22
+        }
+      },
+      {
+        "id": "nav-products",
+        "desc": "the \"Products\" entry in the navigation menu",
+        "box": {
+          "x": 12,
+          "y": 54,
+          "w": 185,
+          "h": 39
+        }
+      },
+      {
+        "id": "nav-customers",
+        "desc": "the \"Customers\" entry in the navigation menu",
+        "box": {
+          "x": 12,
+          "y": 97,
+          "w": 185,
+          "h": 39
+        }
+      },
+      {
+        "id": "nav-settings",
+        "desc": "the \"Settings\" entry in the navigation menu",
+        "box": {
+          "x": 12,
+          "y": 140,
+          "w": 185,
+          "h": 39
+        }
+      },
+      {
+        "id": "logout-button",
+        "desc": "the logout button at the bottom of the sidebar",
+        "box": {
+          "x": 12,
+          "y": 1048,
+          "w": 185,
+          "h": 36
+        }
+      },
+      {
+        "id": "row1-name",
+        "desc": "the product name \"Cola Classic 330ml\" in the table",
+        "box": {
+          "x": 237,
+          "y": 361,
+          "w": 245,
+          "h": 47
+        }
+      },
+      {
+        "id": "row1-view-icon",
+        "desc": "the eye/view icon in the row of \"Cola Classic 330ml\"",
+        "box": {
+          "x": 1123,
+          "y": 371,
+          "w": 28,
+          "h": 28
+        }
+      },
+      {
+        "id": "row1-edit-icon",
+        "desc": "the pencil/edit icon in the row of \"Cola Classic 330ml\"",
+        "box": {
+          "x": 1151,
+          "y": 371,
+          "w": 28,
+          "h": 28
+        }
+      },
+      {
+        "id": "row1-delete-icon",
+        "desc": "the trash/delete icon in the row of \"Cola Classic 330ml\"",
+        "box": {
+          "x": 1179,
+          "y": 371,
+          "w": 28,
+          "h": 28
+        }
+      },
+      {
+        "id": "row5-price",
+        "desc": "the price cell of \"Dark Chocolate Bar 70%\"",
+        "box": {
+          "x": 721,
+          "y": 549,
+          "w": 82,
+          "h": 47
+        }
+      },
+      {
+        "id": "row9-stock",
+        "desc": "the stock value of \"Laundry Detergent 2kg\"",
+        "box": {
+          "x": 886,
+          "y": 737,
+          "w": 84,
+          "h": 47
+        }
+      },
+      {
+        "id": "row12-rating",
+        "desc": "the star rating of \"Sticky Notes 3x3\" (last row)",
+        "box": {
+          "x": 969,
+          "y": 878,
+          "w": 142,
+          "h": 47
+        }
+      },
+      {
+        "id": "header-cost",
+        "desc": "the \"Cost\" column header of the product table",
+        "box": {
+          "x": 803,
+          "y": 321,
+          "w": 82,
+          "h": 41
+        }
+      },
+      {
+        "id": "table-footer",
+        "desc": "the footer text showing how many products are listed",
+        "box": {
+          "x": 236,
+          "y": 934,
+          "w": 1018,
+          "h": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "customer-c01",
+    "url": "/customers/c01",
+    "role": "admin",
+    "pii": [
+      {
+        "id": "pii-phone",
+        "box": {
+          "x": 389,
+          "y": 165,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-email",
+        "box": {
+          "x": 389,
+          "y": 197,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-address",
+        "box": {
+          "x": 389,
+          "y": 229,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-card-number",
+        "box": {
+          "x": 389,
+          "y": 262,
+          "w": 304,
+          "h": 22
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "c01-back",
+        "desc": "the \"Back\" button above the profile heading",
+        "box": {
+          "x": 236,
+          "y": 22,
+          "w": 63,
+          "h": 35
+        }
+      },
+      {
+        "id": "c01-heading",
+        "desc": "the \"Customer profile\" heading",
+        "box": {
+          "x": 236,
+          "y": 69,
+          "w": 1018,
+          "h": 31
+        }
+      },
+      {
+        "id": "c01-name-value",
+        "desc": "the customer's full name value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 133,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-phone-label",
+        "desc": "the \"Phone\" label in the profile card",
+        "box": {
+          "x": 259,
+          "y": 165,
+          "w": 130,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-phone-value",
+        "desc": "the phone number value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 165,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-email-value",
+        "desc": "the email address value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 197,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-card-label",
+        "desc": "the \"Card number\" label in the profile card",
+        "box": {
+          "x": 259,
+          "y": 262,
+          "w": 130,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-card-value",
+        "desc": "the card number value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 262,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-points-value",
+        "desc": "the loyalty points value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 294,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c01-nav-customers",
+        "desc": "the \"Customers\" entry in the navigation menu",
+        "box": {
+          "x": 12,
+          "y": 97,
+          "w": 185,
+          "h": 39
+        }
+      }
+    ]
+  },
+  {
+    "id": "customer-c03",
+    "url": "/customers/c03",
+    "role": "admin",
+    "pii": [
+      {
+        "id": "pii-phone",
+        "box": {
+          "x": 389,
+          "y": 165,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-email",
+        "box": {
+          "x": 389,
+          "y": 197,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-address",
+        "box": {
+          "x": 389,
+          "y": 229,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "pii-card-number",
+        "box": {
+          "x": 389,
+          "y": 262,
+          "w": 304,
+          "h": 22
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "c03-back",
+        "desc": "the \"Back\" button above the profile heading",
+        "box": {
+          "x": 236,
+          "y": 22,
+          "w": 63,
+          "h": 35
+        }
+      },
+      {
+        "id": "c03-name-value",
+        "desc": "the customer's full name value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 133,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c03-address-label",
+        "desc": "the \"Address\" label in the profile card",
+        "box": {
+          "x": 259,
+          "y": 229,
+          "w": 130,
+          "h": 22
+        }
+      },
+      {
+        "id": "c03-address-value",
+        "desc": "the address value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 229,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c03-card-value",
+        "desc": "the card number value in the profile card",
+        "box": {
+          "x": 389,
+          "y": 262,
+          "w": 304,
+          "h": 22
+        }
+      },
+      {
+        "id": "c03-email-label",
+        "desc": "the \"Email\" label in the profile card",
+        "box": {
+          "x": 259,
+          "y": 197,
+          "w": 130,
+          "h": 22
+        }
+      },
+      {
+        "id": "c03-logout",
+        "desc": "the logout button at the bottom of the sidebar",
+        "box": {
+          "x": 12,
+          "y": 1048,
+          "w": 185,
+          "h": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": "login",
+    "url": "/login",
+    "role": null,
+    "pii": [],
+    "items": [
+      {
+        "id": "login-username",
+        "desc": "the username input field",
+        "box": {
+          "x": 499,
+          "y": 494,
+          "w": 282,
+          "h": 33
+        }
+      },
+      {
+        "id": "login-password",
+        "desc": "the password input field",
+        "box": {
+          "x": 499,
+          "y": 561,
+          "w": 282,
+          "h": 33
+        }
+      },
+      {
+        "id": "login-submit",
+        "desc": "the button that submits the sign-in form",
+        "box": {
+          "x": 499,
+          "y": 610,
+          "w": 282,
+          "h": 35
+        }
+      },
+      {
+        "id": "login-title",
+        "desc": "the application title on the sign-in card",
+        "box": {
+          "x": 499,
+          "y": 391,
+          "w": 282,
+          "h": 38
+        }
+      },
+      {
+        "id": "login-hint",
+        "desc": "the demo accounts hint text at the bottom of the card",
+        "box": {
+          "x": 499,
+          "y": 659,
+          "w": 282,
+          "h": 37
+        }
+      }
+    ]
+  }
+]

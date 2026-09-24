@@ -1,0 +1,720 @@
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [185, 60, 370, 94]}","latency":1362}
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [185, 60, 370, 94]}","latency":4843}
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [185, 61, 370, 94]}","latency":1648}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [379, 59, 484, 95]}","latency":1500}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [379, 59, 484, 94]}","latency":1671}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [378, 60, 483, 94]}","latency":1156}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [560, 59, 650, 95]}","latency":754}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [560, 59, 649, 95]}","latency":1178}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [560, 59, 649, 94]}","latency":2393}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [527, 67, 541, 85]}","latency":2775}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [527, 68, 540, 85]}","latency":2387}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [527, 68, 540, 85]}","latency":2509}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [267, 175, 432, 197]}","latency":2230}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [266, 175, 432, 197], \"label\": \"the orange \\\"Snack\\\" bar inside the \\\"Products by category\\\" chart\"}","latency":2812}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [266, 175, 431, 197]}","latency":2001}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [11, 50, 153, 83], \"label\": \"the \\\"Products\\\" entry in the navigation menu\"}","latency":645}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [12, 50, 154, 83]}","latency":1034}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [10, 50, 154, 82]}","latency":3024}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":2874}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":3635}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":3626}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [0, 125, 154, 166]}","latency":1678}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [19, 135, 78, 152]}","latency":1200}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [0, 124, 156, 166]}","latency":5745}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [12, 950, 153, 986]}","latency":2754}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [12, 949, 153, 986], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1877}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [10, 949, 153, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":3223}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [193, 343, 365, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":2369}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [193, 343, 365, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":2183}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 343, 365, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":2174}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [875, 347, 889, 363]}","latency":1385}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [875, 347, 889, 364]}","latency":1099}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [875, 347, 889, 363]}","latency":3393}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [896, 348, 911, 365]}","latency":1120}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [896, 348, 911, 367]}","latency":1142}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [896, 348, 911, 367]}","latency":1432}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [919, 347, 935, 367]}","latency":1373}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [919, 347, 935, 367]}","latency":3475}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [919, 347, 935, 367]}","latency":3531}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [553, 500, 617, 548], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":2269}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [553, 500, 617, 548], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":2101}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [553, 500, 617, 548], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":2197}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [680, 678, 731, 717], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1058}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [677, 677, 730, 716], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1285}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [677, 677, 730, 716], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1137}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [756, 810, 825, 837]}","latency":1766}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [756, 808, 825, 837], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":1287}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [756, 810, 825, 837], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":1722}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [620, 297, 675, 330], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":617}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [617, 297, 680, 331]}","latency":1277}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [617, 297, 680, 333], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":837}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [180, 850, 252, 871]}","latency":1126}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [180, 850, 245, 871]}","latency":1170}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [180, 850, 252, 871]}","latency":1785}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [184, 21, 231, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":568}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [183, 21, 231, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":576}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [184, 21, 231, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":565}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [183, 67, 559, 97], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":2330}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [183, 67, 313, 94]}","latency":677}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [183, 67, 559, 97], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":2077}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 120, 545, 145], \"label\": \"the customer's full name value in the profile card\"}","latency":1745}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [303, 124, 541, 147]}","latency":1186}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [303, 123, 540, 145]}","latency":2248}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [202, 155, 295, 171]}","latency":1203}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [202, 151, 297, 172], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":1809}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [202, 153, 295, 173]}","latency":1796}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [302, 150, 540, 177], \"label\": \"the phone number value in the profile card\"}","latency":2652}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [302, 150, 540, 177], \"label\": \"the phone number value in the profile card\"}","latency":686}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [302, 150, 540, 177], \"label\": \"the phone number value in the profile card\"}","latency":707}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [302, 180, 540, 204]}","latency":1399}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [302, 180, 540, 205]}","latency":2711}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [302, 180, 540, 204]}","latency":712}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [201, 239, 264, 260], \"label\": \"the \\\"Card number\\\" label in the profile card\"}","latency":586}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [200, 238, 290, 265]}","latency":639}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [200, 240, 263, 262]}","latency":3189}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [302, 239, 540, 265]}","latency":953}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [302, 239, 540, 265]}","latency":1140}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [302, 239, 540, 265]}","latency":1191}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [303, 270, 541, 293]}","latency":692}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [302, 270, 540, 292]}","latency":3051}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [302, 270, 540, 292]}","latency":1265}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 87, 154, 123]}","latency":649}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [10, 87, 153, 123]}","latency":3236}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [10, 87, 154, 123]}","latency":665}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [183, 21, 229, 55]}","latency":1039}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [182, 20, 229, 56]}","latency":756}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [183, 20, 229, 54]}","latency":582}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [304, 124, 540, 145]}","latency":2674}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [303, 125, 541, 147]}","latency":1670}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [303, 123, 540, 146]}","latency":1136}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [202, 210, 295, 233]}","latency":1053}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [202, 210, 295, 233]}","latency":1037}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [202, 210, 295, 233]}","latency":991}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [302, 208, 541, 237]}","latency":1136}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [303, 209, 540, 235]}","latency":1500}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [303, 209, 540, 235]}","latency":2010}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [303, 237, 540, 265]}","latency":2533}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [303, 237, 540, 265]}","latency":991}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [303, 237, 540, 265]}","latency":644}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [201, 179, 299, 204], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":1492}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [201, 179, 299, 204], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":622}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [200, 178, 297, 204], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":1491}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [10, 949, 152, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":2307}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [10, 949, 152, 984]}","latency":3703}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"{\"box\": [10, 949, 154, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1000}
+{"cond":"orig","screen":"login","item":"login-username","repeat":1,"raw":"{\"box\": [389, 452, 609, 485]}","latency":662}
+{"cond":"orig","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [388, 451, 610, 484]}","latency":1318}
+{"cond":"orig","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [388, 451, 610, 484]}","latency":2224}
+{"cond":"orig","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [389, 517, 609, 551]}","latency":679}
+{"cond":"orig","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [388, 516, 609, 550], \"label\": \"the password input field\"}","latency":929}
+{"cond":"orig","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [389, 517, 609, 551]}","latency":1490}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [389, 564, 609, 598], \"label\": \"the button that submits the sign-in form\"}","latency":1878}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [389, 564, 609, 598], \"label\": \"the button that submits the sign-in form\"}","latency":806}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [389, 564, 609, 598], \"label\": \"the button that submits the sign-in form\"}","latency":1764}
+{"cond":"orig","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [389, 364, 575, 393]}","latency":855}
+{"cond":"orig","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 364, 575, 393]}","latency":1013}
+{"cond":"orig","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 362, 575, 393]}","latency":572}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 609, 609, 629], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":753}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 609, 608, 629], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":2866}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 609, 608, 629], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":1114}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [183, 60, 370, 94]}","latency":1200}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [184, 60, 370, 94]}","latency":2546}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [184, 61, 370, 94]}","latency":2671}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [379, 59, 484, 94]}","latency":676}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [379, 60, 483, 94]}","latency":1379}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [379, 60, 483, 94]}","latency":1995}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [560, 60, 650, 94], \"label\": \"the blue button that adds a new product\"}","latency":718}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [561, 60, 649, 94]}","latency":2427}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [561, 60, 649, 94]}","latency":4078}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [526, 67, 540, 86]}","latency":1374}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [526, 69, 540, 86]}","latency":1875}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [525, 68, 539, 85]}","latency":4787}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [266, 175, 431, 197]}","latency":777}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [266, 172, 432, 195], \"label\": \"the orange \\\"Snack\\\" bar inside the \\\"Products by category\\\" chart\"}","latency":650}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [267, 175, 432, 197]}","latency":1204}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [0, 47, 156, 85]}","latency":2862}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [0, 47, 154, 84]}","latency":2277}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [0, 47, 156, 85]}","latency":5854}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":897}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":1358}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":1322}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [0, 125, 156, 166], \"label\": \"the \\\"Settings\\\" entry in the navigation menu\"}","latency":709}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [0, 124, 156, 166]}","latency":1274}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [0, 124, 156, 166]}","latency":899}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [10, 949, 155, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":911}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [10, 949, 154, 986], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1144}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [10, 949, 153, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":2870}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [192, 342, 370, 360], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":1246}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [192, 342, 362, 361]}","latency":2009}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 343, 367, 362]}","latency":863}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [875, 345, 889, 364], \"label\": \"the eye/view icon in the row of \\\"Cola Classic 330ml\\\"\"}","latency":649}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [875, 347, 889, 364]}","latency":1151}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [875, 347, 889, 364]}","latency":984}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [897, 349, 911, 366]}","latency":1902}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [897, 347, 911, 365]}","latency":1031}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [897, 348, 910, 365]}","latency":2900}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [920, 348, 935, 367]}","latency":657}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [920, 348, 935, 367]}","latency":2298}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [919, 343, 934, 366]}","latency":668}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [557, 500, 610, 544], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":1011}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [557, 500, 610, 544], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":669}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [550, 500, 612, 547], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":1855}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [677, 677, 730, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":946}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [677, 675, 730, 716], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":732}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [679, 675, 730, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":662}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [758, 810, 824, 830], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":672}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [758, 812, 824, 833]}","latency":3252}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [757, 810, 824, 834]}","latency":1148}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [617, 297, 680, 333], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":1177}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [620, 297, 680, 333]}","latency":1869}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [624, 297, 680, 333]}","latency":1998}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [180, 850, 255, 870], \"label\": \"the footer text showing how many products are listed\"}","latency":699}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [180, 850, 245, 871]}","latency":645}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [180, 850, 255, 870]}","latency":885}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [183, 20, 230, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":1658}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [183, 20, 229, 54]}","latency":1661}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [182, 20, 230, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":1112}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [182, 65, 313, 96]}","latency":755}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [182, 65, 313, 96]}","latency":694}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [184, 67, 314, 93], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":645}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 124, 537, 145]}","latency":2523}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [303, 123, 537, 146]}","latency":928}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [304, 124, 537, 145]}","latency":1380}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [200, 150, 295, 177]}","latency":640}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [200, 150, 295, 177]}","latency":665}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [202, 153, 299, 172], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":622}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [300, 150, 542, 177]}","latency":1759}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [301, 150, 548, 177], \"label\": \"the phone number value in the profile card\"}","latency":1112}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [300, 150, 542, 177]}","latency":1526}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [300, 177, 545, 207]}","latency":1574}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [300, 177, 545, 205]}","latency":1955}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [300, 179, 545, 207]}","latency":1088}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [202, 240, 295, 261]}","latency":1216}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [201, 240, 299, 262]}","latency":1032}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [202, 240, 297, 262]}","latency":1205}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [300, 239, 547, 269]}","latency":1708}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [300, 240, 545, 268]}","latency":945}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [300, 240, 548, 267]}","latency":2272}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [303, 267, 545, 294], \"label\": \"the loyalty points value in the profile card\"}","latency":652}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [303, 269, 520, 293]}","latency":2267}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [303, 270, 515, 291]}","latency":1629}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 87, 153, 124]}","latency":1555}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [10, 87, 152, 123]}","latency":986}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [10, 87, 152, 123]}","latency":1038}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [183, 20, 230, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}\n","latency":1146}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [180, 20, 229, 56]}","latency":1521}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [182, 21, 229, 54]}","latency":1203}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [304, 124, 545, 147]}","latency":4614}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [304, 125, 545, 146]}","latency":1715}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [303, 124, 545, 147]}","latency":1323}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [202, 208, 295, 233]}","latency":1465}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [203, 210, 295, 231], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":992}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [202, 209, 297, 232], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":661}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [300, 206, 548, 236]}","latency":2354}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [300, 208, 545, 237]}","latency":1253}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [300, 208, 545, 237]}","latency":3387}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [300, 239, 548, 267]}","latency":1084}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [300, 237, 548, 267]}","latency":2299}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [300, 238, 550, 267]}","latency":1881}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [202, 178, 295, 205]}","latency":2074}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [202, 178, 295, 205]}","latency":1393}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [202, 179, 295, 200], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":614}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [10, 949, 152, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":760}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [10, 950, 152, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1637}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"{\"box\": [10, 950, 153, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1554}
+{"cond":"blur","screen":"login","item":"login-username","repeat":1,"raw":"{\"box\": [388, 451, 610, 484]}","latency":1607}
+{"cond":"blur","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [388, 450, 610, 483]}","latency":1137}
+{"cond":"blur","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [388, 451, 609, 483], \"label\": \"the username input field\"}","latency":622}
+{"cond":"blur","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [389, 518, 609, 551]}","latency":1203}
+{"cond":"blur","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [389, 517, 609, 551]}","latency":641}
+{"cond":"blur","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [388, 517, 609, 551], \"label\": \"the password input field\"}","latency":632}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [389, 564, 609, 599], \"label\": \"the button that submits the sign-in form\"}","latency":824}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [389, 564, 609, 599]}","latency":900}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [388, 564, 610, 598], \"label\": \"the button that submits the sign-in form\"}","latency":1476}
+{"cond":"blur","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [389, 363, 575, 393], \"label\": \"the application title on the sign-in card\"}","latency":1474}
+{"cond":"blur","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 364, 575, 393]}","latency":4566}
+{"cond":"blur","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 363, 575, 393], \"label\": \"the application title on the sign-in card\"}","latency":1399}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 609, 610, 629], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":630}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 608, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":623}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 609, 609, 629], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":836}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [185, 60, 370, 94]}","latency":667}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [184, 61, 370, 94]}","latency":2443}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [184, 61, 370, 94]}","latency":2464}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [379, 60, 483, 94]}","latency":1194}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [379, 60, 483, 94]}","latency":1151}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [379, 60, 483, 94]}","latency":857}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [560, 59, 649, 94]}","latency":891}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [560, 59, 649, 95]}","latency":658}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [560, 59, 650, 94], \"label\": \"the blue button that adds a new product\"}","latency":676}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [527, 67, 540, 83], \"label\": \"the 4th star of the star-rating filter in the toolbar\"}","latency":737}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [526, 69, 539, 84]}","latency":681}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [526, 69, 540, 86]}","latency":1344}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [265, 173, 433, 196], \"label\": \"the orange \\\"Snack\\\" bar inside the \\\"Products by category\\\" chart\"}","latency":961}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [266, 172, 433, 197], \"label\": \"the orange \\\"Snack\\\" bar inside the \\\"Products by category\\\" chart\"}","latency":687}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [266, 175, 431, 197]}","latency":672}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [11, 50, 154, 82], \"label\": \"the \\\"Products\\\" entry in the navigation menu\"}","latency":1091}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [0, 47, 156, 85]}","latency":4712}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [0, 46, 154, 85]}","latency":2880}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":1844}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":1319}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 87, 156, 127], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":815}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [14, 130, 154, 155], \"label\": \"the \\\"Settings\\\" entry in the navigation menu\"}","latency":746}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [0, 125, 156, 166]}","latency":1394}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [14, 131, 154, 153], \"label\": \"the \\\"Settings\\\" entry in the navigation menu\"}","latency":635}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [10, 949, 154, 986], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1180}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [10, 949, 154, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1323}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [10, 949, 153, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1135}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [193, 342, 365, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":5745}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [193, 343, 367, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":2426}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 343, 365, 363], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":3124}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [875, 347, 889, 364]}","latency":1243}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [875, 347, 889, 364]}","latency":1444}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [875, 346, 889, 363]}","latency":4006}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [897, 347, 911, 367], \"label\": \"the pencil/edit icon in the row of \\\"Cola Classic 330ml\\\"\"}","latency":817}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [897, 349, 910, 365]}","latency":2144}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [897, 349, 910, 365]}","latency":1345}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [919, 343, 936, 367]}","latency":2439}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [919, 345, 935, 365]}","latency":2472}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [919, 345, 935, 365]}","latency":2171}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [550, 500, 612, 547], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":702}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [557, 500, 610, 545]}","latency":1590}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [555, 500, 610, 544], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":661}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [679, 675, 730, 715], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":846}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [677, 677, 727, 712], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":676}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [680, 678, 731, 717], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1482}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [756, 810, 825, 837], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":1412}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [756, 810, 825, 837], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":1328}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [757, 809, 824, 831], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":646}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [620, 298, 672, 331]}","latency":857}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [617, 296, 680, 333], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":780}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [624, 297, 685, 333], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":751}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [180, 850, 261, 871]}","latency":2130}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [180, 850, 245, 871]}","latency":752}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [180, 850, 255, 870]}","latency":2231}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [182, 20, 228, 55]}","latency":1043}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [182, 20, 230, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}\n","latency":629}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [182, 20, 229, 55]}","latency":2087}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [183, 67, 313, 94]}","latency":720}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [183, 67, 313, 94]}","latency":746}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [183, 67, 312, 94]}","latency":1144}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 124, 512, 145]}","latency":2032}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [304, 124, 512, 145]}","latency":983}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [304, 124, 512, 145]}","latency":3574}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [202, 152, 299, 171], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":1047}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [202, 152, 299, 172], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":618}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [203, 152, 299, 171], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":1302}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [300, 148, 511, 177]}","latency":1710}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [300, 147, 512, 175]}","latency":814}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [300, 148, 511, 175]}","latency":1162}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [300, 176, 511, 205]}","latency":2127}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [300, 176, 511, 204]}","latency":1956}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [300, 176, 511, 204]}","latency":2346}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [202, 240, 297, 263]}","latency":741}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [201, 240, 297, 264]}","latency":685}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [201, 240, 297, 264]}","latency":830}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [299, 239, 512, 270]}","latency":1218}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [299, 239, 512, 269]}","latency":1035}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [300, 239, 512, 269]}","latency":2233}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [303, 270, 511, 293]}","latency":1210}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [303, 270, 512, 292]}","latency":808}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [303, 270, 512, 292]}","latency":665}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 87, 154, 123]}","latency":3111}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [10, 87, 153, 123]}","latency":1339}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [10, 87, 154, 124]}","latency":732}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [182, 20, 229, 56], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":633}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [181, 20, 230, 55]}","latency":645}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [181, 20, 230, 55], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":626}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [303, 124, 482, 146]}","latency":861}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [303, 125, 480, 145]}","latency":775}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [303, 124, 484, 146]}","latency":760}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [202, 208, 295, 233]}","latency":1142}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [202, 210, 295, 232], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":614}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [202, 208, 295, 233]}","latency":903}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [300, 204, 479, 237], \"label\": \"the address value in the profile card\"}","latency":1075}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [299, 205, 480, 237], \"label\": \"the address value in the profile card\"}","latency":622}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [299, 205, 475, 237]}","latency":2179}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [300, 237, 477, 267]}","latency":1179}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [300, 237, 477, 268]}","latency":691}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [300, 237, 477, 268]}","latency":1056}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [202, 181, 297, 202]}","latency":681}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [202, 181, 297, 203]}","latency":674}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [202, 181, 297, 203]}","latency":779}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [10, 949, 153, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":754}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [10, 950, 152, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":776}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"{\"box\": [10, 950, 152, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":812}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":1,"raw":"{\"box\": [388, 451, 609, 484], \"label\": \"the username input field\"}","latency":594}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [388, 451, 610, 484]}","latency":2038}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [388, 451, 610, 484]}","latency":1494}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [389, 517, 609, 551]}","latency":624}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [387, 516, 609, 550]}","latency":579}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [389, 518, 609, 551]}","latency":1320}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [388, 564, 609, 598], \"label\": \"the button that submits the sign-in form\"}","latency":1494}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [389, 564, 609, 599], \"label\": \"the button that submits the sign-in form\"}","latency":2156}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [388, 564, 609, 598], \"label\": \"the button that submits the sign-in form\"}","latency":2324}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [389, 364, 575, 393]}","latency":2528}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 364, 575, 393], \"label\": \"the application title on the sign-in card\"}","latency":1678}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 363, 575, 393], \"label\": \"the application title on the sign-in card\"}","latency":1476}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 609, 609, 628], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":1423}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 609, 609, 628], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":1360}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 609, 609, 628], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":1148}
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [185, 60, 372, 92]}","latency":2835}
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [185, 60, 372, 92]}","latency":910}
+{"cond":"orig","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [185, 60, 372, 92]}","latency":750}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [379, 59, 486, 92]}","latency":1850}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [379, 59, 484, 90]}","latency":1971}
+{"cond":"orig","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [380, 60, 485, 90]}","latency":719}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [567, 59, 654, 90]}","latency":1798}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [569, 60, 654, 91]}","latency":733}
+{"cond":"orig","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [568, 60, 654, 89]}","latency":814}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [526, 67, 540, 83]}","latency":671}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [527, 67, 540, 84], \"label\": \"the 4th star of the star-rating filter in the toolbar\"}","latency":1040}
+{"cond":"orig","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [526, 67, 540, 83]}","latency":763}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [267, 170, 435, 197]}","latency":679}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [267, 170, 435, 197]}","latency":729}
+{"cond":"orig","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [267, 170, 435, 197]}","latency":668}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [11, 52, 154, 82], \"label\": \"the \\\"Products\\\" entry in the navigation menu\"}","latency":737}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [0, 45, 156, 87]}","latency":712}
+{"cond":"orig","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [0, 45, 154, 86]}","latency":2318}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 85, 154, 129]}","latency":731}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 85, 154, 129]}","latency":2091}
+{"cond":"orig","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 85, 154, 129]}","latency":2470}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [0, 125, 156, 167]}","latency":672}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [0, 124, 156, 166]}","latency":1664}
+{"cond":"orig","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [0, 125, 156, 167]}","latency":628}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [8, 951, 152, 986]}","latency":679}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [10, 951, 154, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1319}
+{"cond":"orig","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [8, 951, 152, 986]}","latency":667}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [193, 340, 362, 361]}","latency":1729}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [193, 339, 367, 359], \"label\": \"the product name \\\"Cola Classic 330ml\\\" in the table\"}","latency":695}
+{"cond":"orig","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 340, 362, 361]}","latency":1879}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [879, 340, 895, 357]}","latency":653}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [879, 340, 895, 357]}","latency":650}
+{"cond":"orig","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [879, 340, 895, 357]}","latency":903}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [902, 340, 917, 358]}","latency":683}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [902, 340, 917, 358]}","latency":602}
+{"cond":"orig","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [903, 342, 916, 357]}","latency":614}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [925, 340, 940, 362]}","latency":2352}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [925, 340, 940, 362]}","latency":5614}
+{"cond":"orig","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [925, 340, 940, 362]}","latency":4420}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [560, 502, 614, 543]}","latency":605}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [557, 500, 610, 541], \"label\": \"the price cell of \\\"Dark Chocolate Bar 70%\\\"\"}","latency":697}
+{"cond":"orig","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [560, 502, 614, 543]}","latency":646}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [687, 673, 749, 710], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1163}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [689, 670, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":740}
+{"cond":"orig","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [680, 672, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":1837}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [764, 810, 832, 830], \"label\": \"the star rating of \\\"Sticky Notes 3x3\\\" (last row)\"}","latency":835}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [765, 808, 832, 831]}","latency":652}
+{"cond":"orig","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [763, 809, 832, 831]}","latency":682}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [609, 295, 671, 328]}","latency":720}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [609, 295, 671, 328]}","latency":1852}
+{"cond":"orig","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [617, 294, 675, 326], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":1019}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [183, 847, 978, 865]}","latency":804}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [184, 845, 260, 864], \"label\": \"the footer text showing how many products are listed\"}","latency":1020}
+{"cond":"orig","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [183, 847, 978, 867], \"label\": \"the footer text showing how many products are listed\"}","latency":888}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [183, 20, 230, 52]}","latency":1620}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [183, 20, 230, 52]}","latency":827}
+{"cond":"orig","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [183, 21, 232, 52], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":704}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [183, 63, 315, 91], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":719}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [183, 63, 315, 90], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":770}
+{"cond":"orig","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [183, 62, 559, 97]}","latency":817}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 117, 545, 141], \"label\": \"the customer's full name value in the profile card\"}","latency":1051}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [305, 120, 541, 143]}","latency":680}
+{"cond":"orig","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [305, 120, 540, 143]}","latency":596}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [201, 148, 295, 173]}","latency":675}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [202, 147, 295, 169], \"label\": \"the \\\"Phone\\\" label in the profile card\"}","latency":718}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [201, 148, 295, 173]}","latency":629}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [305, 148, 542, 173]}","latency":732}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [305, 148, 542, 173]}","latency":715}
+{"cond":"orig","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [304, 147, 540, 172], \"label\": \"the phone number value in the profile card\"}","latency":647}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [304, 178, 542, 201]}","latency":659}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [303, 177, 540, 200]}","latency":2020}
+{"cond":"orig","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [304, 178, 542, 201]}","latency":632}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [201, 238, 295, 261]}","latency":624}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [201, 237, 265, 259]}","latency":1804}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [201, 237, 265, 259]}","latency":1746}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [303, 235, 548, 262], \"label\": \"the card number value in the profile card\"}","latency":721}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [305, 238, 541, 261]}","latency":593}
+{"cond":"orig","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [304, 238, 541, 261]}","latency":646}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [302, 268, 541, 291]}","latency":1194}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [304, 268, 541, 291]}","latency":1084}
+{"cond":"orig","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [304, 268, 541, 291]}","latency":1228}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 88, 154, 121], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}\n","latency":823}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [9, 87, 154, 123]}","latency":658}
+{"cond":"orig","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [9, 87, 154, 123]}","latency":695}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [183, 20, 230, 52]}","latency":1342}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [183, 20, 230, 52]}","latency":805}
+{"cond":"orig","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [183, 20, 230, 52]}","latency":794}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [305, 120, 546, 141]}","latency":652}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [305, 119, 548, 140], \"label\": \"the customer's full name value in the profile card\"}","latency":715}
+{"cond":"orig","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [304, 117, 545, 143], \"label\": \"the customer's full name value in the profile card\"}","latency":690}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [201, 207, 295, 231]}","latency":1037}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [201, 208, 295, 231]}","latency":590}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [201, 204, 298, 230], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":636}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [304, 207, 541, 231]}","latency":672}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [304, 205, 545, 230], \"label\": \"the address value in the profile card\"}","latency":664}
+{"cond":"orig","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [304, 205, 548, 230], \"label\": \"the address value in the profile card\"}","latency":694}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [304, 235, 545, 260], \"label\": \"the card number value in the profile card\"}","latency":708}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [304, 237, 545, 259], \"label\": \"the card number value in the profile card\"}","latency":946}
+{"cond":"orig","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [304, 237, 545, 259], \"label\": \"the card number value in the profile card\"}","latency":828}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [201, 178, 295, 203]}","latency":1352}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [201, 178, 295, 203]}","latency":906}
+{"cond":"orig","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [201, 178, 295, 203]}","latency":654}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [10, 950, 155, 984], \"label\": \"the logout button at the bottom of the sidebar\"}\n","latency":705}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [8, 950, 154, 986]}","latency":783}
+{"cond":"orig","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"{\"box\": [8, 950, 154, 986], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1089}
+{"cond":"orig","screen":"login","item":"login-username","repeat":1,"raw":"{\"box\": [389, 448, 609, 477]}","latency":1138}
+{"cond":"orig","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [389, 448, 610, 477]}","latency":664}
+{"cond":"orig","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [389, 448, 609, 477]}","latency":1292}
+{"cond":"orig","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [388, 509, 610, 540], \"label\": \"the password input field\"}","latency":683}
+{"cond":"orig","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [388, 509, 610, 540], \"label\": \"the password input field\"}","latency":643}
+{"cond":"orig","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [389, 508, 610, 542]}","latency":1145}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [389, 554, 609, 587]}","latency":679}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [388, 553, 610, 586], \"label\": \"the button that submits the sign-in form\"}","latency":656}
+{"cond":"orig","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [389, 554, 609, 587]}","latency":715}
+{"cond":"orig","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [389, 357, 569, 387], \"label\": \"the application title on the sign-in card\"}","latency":791}
+{"cond":"orig","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 357, 569, 387]}","latency":1086}
+{"cond":"orig","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 357, 569, 387], \"label\": \"the application title on the sign-in card\"}","latency":562}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 597, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":608}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 596, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":642}
+{"cond":"orig","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 597, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":715}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [186, 61, 374, 90], \"label\": \"the search input above the product table\"}","latency":1382}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [185, 60, 372, 90]}","latency":657}
+{"cond":"blur","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [185, 60, 372, 92]}","latency":697}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [379, 59, 486, 90]}","latency":660}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [379, 59, 486, 92]}","latency":2773}
+{"cond":"blur","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [379, 59, 486, 90]}","latency":614}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [567, 59, 654, 90]}","latency":2081}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [567, 59, 654, 90]}","latency":1824}
+{"cond":"blur","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [568, 60, 655, 89]}","latency":671}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [530, 67, 544, 84]}","latency":1003}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [526, 67, 539, 84]}","latency":1762}
+{"cond":"blur","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [526, 67, 539, 84]}","latency":1688}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [267, 170, 435, 197]}","latency":2813}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [267, 170, 435, 197]}","latency":712}
+{"cond":"blur","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [267, 169, 435, 193], \"label\": \"the orange \\\"Snack\\\" bar inside the \\\"Products by category\\\" chart\"}","latency":794}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [0, 45, 154, 86]}","latency":755}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [0, 45, 154, 86]}","latency":629}
+{"cond":"blur","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [0, 45, 154, 86]}","latency":708}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 85, 154, 129]}","latency":773}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 85, 154, 129], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":2047}
+{"cond":"blur","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 85, 154, 129]}","latency":690}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [14, 130, 152, 155], \"label\": \"the \\\"Settings\\\" entry in the navigation menu\"}","latency":2783}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [0, 124, 156, 166]}","latency":2585}
+{"cond":"blur","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [0, 124, 156, 166]}","latency":2580}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [8, 951, 152, 986]}","latency":646}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [10, 950, 155, 984], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":1697}
+{"cond":"blur","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [9, 951, 152, 986]}","latency":1716}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [193, 340, 362, 361]}","latency":689}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [193, 340, 362, 357]}","latency":642}
+{"cond":"blur","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 340, 362, 361]}","latency":1818}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [879, 338, 894, 363], \"label\": \"the eye/view icon in the row of \\\"Cola Classic 330ml\\\"\"}","latency":773}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [879, 340, 895, 357]}","latency":654}
+{"cond":"blur","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [879, 339, 894, 361], \"label\": \"the eye/view icon in the row of \\\"Cola Classic 330ml\\\"\"}","latency":708}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [902, 340, 917, 358]}","latency":597}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [902, 340, 917, 358]}","latency":2007}
+{"cond":"blur","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [900, 340, 915, 362]}","latency":664}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [925, 340, 940, 361]}","latency":2352}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [925, 340, 940, 361]}","latency":2456}
+{"cond":"blur","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [925, 340, 940, 362]}","latency":2559}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [560, 502, 614, 543]}","latency":2277}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [560, 502, 614, 543]}","latency":781}
+{"cond":"blur","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [557, 503, 612, 540]}","latency":689}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [689, 670, 741, 713]}","latency":707}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [680, 672, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":653}
+{"cond":"blur","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [690, 672, 741, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":649}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [763, 809, 832, 831]}","latency":1810}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [763, 809, 832, 831]}","latency":769}
+{"cond":"blur","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [763, 808, 832, 831]}","latency":1895}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [609, 298, 671, 325]}","latency":2394}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [617, 294, 675, 324]}","latency":927}
+{"cond":"blur","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [617, 294, 675, 324], \"label\": \"the \\\"Cost\\\" column header of the product table\"}","latency":687}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [183, 847, 978, 867], \"label\": \"the footer text showing how many products are listed\"}","latency":662}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [183, 847, 978, 865]}","latency":1600}
+{"cond":"blur","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [183, 847, 260, 865]}","latency":2215}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [180, 20, 230, 52]}","latency":1513}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [182, 20, 230, 52]}","latency":1544}
+{"cond":"blur","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [182, 20, 230, 52]}","latency":1572}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [182, 65, 309, 92]}","latency":1032}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [184, 63, 560, 93], \"label\": \"the \\\"Customer profile\\\" heading\"}","latency":810}
+{"cond":"blur","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [182, 65, 309, 92]}","latency":770}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 119, 534, 142], \"label\": \"the customer's full name value in the profile card\"}","latency":911}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [304, 119, 535, 141], \"label\": \"the customer's full name value in the profile card\"}","latency":744}
+{"cond":"blur","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [302, 120, 540, 143]}","latency":747}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [201, 148, 295, 173]}","latency":501}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [203, 148, 295, 171]}","latency":388}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [203, 148, 295, 171]}","latency":462}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [302, 145, 520, 173]}","latency":505}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [301, 145, 545, 175]}","latency":402}
+{"cond":"blur","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [302, 145, 526, 173]}","latency":557}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [302, 175, 541, 201]}","latency":526}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [301, 175, 542, 201]}","latency":480}
+{"cond":"blur","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [301, 175, 542, 201]}","latency":435}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [202, 235, 297, 260], \"label\": \"the \\\"Card number\\\" label in the profile card\"}","latency":2535}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [202, 235, 297, 260]}","latency":1632}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [202, 235, 297, 260]}","latency":1793}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [302, 238, 541, 267]}","latency":428}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [300, 235, 548, 267]}","latency":1918}
+{"cond":"blur","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [300, 235, 545, 267]}","latency":3633}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [303, 267, 550, 291], \"label\": \"the loyalty points value in the profile card\"}","latency":493}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [302, 268, 541, 291]}","latency":463}
+{"cond":"blur","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [302, 268, 541, 291]}","latency":421}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 89, 156, 124], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":416}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [9, 87, 154, 123]}","latency":713}
+{"cond":"blur","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [9, 87, 154, 123]}","latency":441}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [184, 21, 233, 51], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":1179}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [180, 20, 230, 52]}","latency":550}
+{"cond":"blur","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [180, 20, 230, 52]}","latency":565}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [303, 118, 545, 141], \"label\": \"the customer's full name value in the profile card\"}","latency":841}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [304, 120, 542, 143]}","latency":753}
+{"cond":"blur","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [302, 120, 542, 143]}","latency":435}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [204, 205, 295, 229], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":446}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [204, 205, 243, 227]}","latency":525}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [201, 207, 295, 231]}","latency":747}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [303, 204, 548, 232], \"label\": \"the address value in the profile card\"}","latency":469}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [302, 205, 541, 237]}","latency":816}
+{"cond":"blur","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [302, 208, 541, 237]}","latency":453}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [301, 235, 548, 265]}","latency":2094}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [301, 235, 548, 265]}","latency":1787}
+{"cond":"blur","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [301, 235, 548, 265]}","latency":1846}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [203, 178, 295, 197]}","latency":399}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [202, 175, 298, 197]}","latency":1237}
+{"cond":"blur","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [201, 178, 295, 197]}","latency":405}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [9, 951, 152, 986]}","latency":449}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [9, 951, 152, 986]}","latency":428}
+{"cond":"blur","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"{\"box\": [8, 950, 154, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":720}
+{"cond":"blur","screen":"login","item":"login-username","repeat":1,"raw":"{\"box\": [389, 448, 610, 477]}","latency":417}
+{"cond":"blur","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [388, 447, 610, 477], \"label\": \"the username input field\"}","latency":408}
+{"cond":"blur","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [389, 448, 610, 477]}","latency":418}
+{"cond":"blur","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [389, 508, 611, 542]}","latency":542}
+{"cond":"blur","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [388, 509, 610, 539], \"label\": \"the password input field\"}","latency":399}
+{"cond":"blur","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [388, 508, 610, 539], \"label\": \"the password input field\"}","latency":416}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [389, 554, 609, 587]}","latency":336}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [389, 554, 609, 587]}","latency":456}
+{"cond":"blur","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [389, 554, 609, 587]}","latency":404}
+{"cond":"blur","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [388, 357, 570, 385], \"label\": \"the application title on the sign-in card\"}","latency":535}
+{"cond":"blur","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 357, 569, 387], \"label\": \"the application title on the sign-in card\"}","latency":375}
+{"cond":"blur","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 357, 569, 387], \"label\": \"the application title on the sign-in card\"}","latency":410}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 597, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":476}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 597, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":478}
+{"cond":"blur","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 597, 609, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":393}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":1,"raw":"{\"box\": [185, 60, 372, 92]}","latency":421}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":2,"raw":"{\"box\": [185, 60, 372, 92]}","latency":441}
+{"cond":"pixel","screen":"products-admin","item":"search-box","repeat":3,"raw":"{\"box\": [183, 59, 370, 92]}","latency":936}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":1,"raw":"{\"box\": [376, 59, 484, 90]}","latency":370}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":2,"raw":"{\"box\": [376, 59, 484, 90]}","latency":339}
+{"cond":"pixel","screen":"products-admin","item":"category-dropdown","repeat":3,"raw":"{\"box\": [376, 59, 484, 90]}","latency":693}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":1,"raw":"{\"box\": [569, 60, 654, 91]}","latency":358}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":2,"raw":"{\"box\": [567, 59, 654, 90]}","latency":323}
+{"cond":"pixel","screen":"products-admin","item":"add-button","repeat":3,"raw":"{\"box\": [567, 59, 654, 90]}","latency":335}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":1,"raw":"{\"box\": [526, 67, 540, 83]}","latency":376}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":2,"raw":"{\"box\": [526, 67, 540, 83]}","latency":435}
+{"cond":"pixel","screen":"products-admin","item":"rating-filter-star4","repeat":3,"raw":"{\"box\": [526, 67, 540, 83]}","latency":487}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":1,"raw":"{\"box\": [267, 170, 435, 197]}","latency":443}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":2,"raw":"{\"box\": [267, 170, 435, 197]}","latency":564}
+{"cond":"pixel","screen":"products-admin","item":"chart-snack-bar","repeat":3,"raw":"{\"box\": [267, 170, 435, 197]}","latency":417}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":1,"raw":"{\"box\": [0, 45, 154, 86]}","latency":354}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":2,"raw":"{\"box\": [0, 45, 154, 86]}","latency":394}
+{"cond":"pixel","screen":"products-admin","item":"nav-products","repeat":3,"raw":"{\"box\": [0, 45, 154, 86]}","latency":352}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":1,"raw":"{\"box\": [0, 85, 154, 129]}","latency":378}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":2,"raw":"{\"box\": [0, 85, 154, 129]}","latency":334}
+{"cond":"pixel","screen":"products-admin","item":"nav-customers","repeat":3,"raw":"{\"box\": [0, 85, 154, 129]}","latency":347}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":1,"raw":"{\"box\": [0, 124, 156, 166]}","latency":2301}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":2,"raw":"{\"box\": [0, 124, 156, 166]}","latency":2437}
+{"cond":"pixel","screen":"products-admin","item":"nav-settings","repeat":3,"raw":"{\"box\": [0, 124, 156, 166]}","latency":2177}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":1,"raw":"{\"box\": [8, 951, 152, 986]}","latency":499}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":2,"raw":"{\"box\": [8, 951, 152, 986]}","latency":393}
+{"cond":"pixel","screen":"products-admin","item":"logout-button","repeat":3,"raw":"{\"box\": [8, 951, 152, 986]}","latency":385}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":1,"raw":"{\"box\": [193, 340, 362, 357]}","latency":349}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":2,"raw":"{\"box\": [193, 340, 362, 357]}","latency":388}
+{"cond":"pixel","screen":"products-admin","item":"row1-name","repeat":3,"raw":"{\"box\": [193, 340, 362, 361]}","latency":498}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":1,"raw":"{\"box\": [879, 340, 895, 357]}","latency":380}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":2,"raw":"{\"box\": [879, 340, 895, 361]}","latency":430}
+{"cond":"pixel","screen":"products-admin","item":"row1-view-icon","repeat":3,"raw":"{\"box\": [879, 340, 895, 357]}","latency":339}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":1,"raw":"{\"box\": [902, 340, 917, 358]}","latency":388}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":2,"raw":"{\"box\": [903, 342, 916, 357]}","latency":412}
+{"cond":"pixel","screen":"products-admin","item":"row1-edit-icon","repeat":3,"raw":"{\"box\": [903, 342, 916, 357]}","latency":416}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":1,"raw":"{\"box\": [925, 340, 940, 361]}","latency":2185}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":2,"raw":"{\"box\": [925, 340, 940, 361]}","latency":2322}
+{"cond":"pixel","screen":"products-admin","item":"row1-delete-icon","repeat":3,"raw":"{\"box\": [925, 340, 940, 361]}","latency":2338}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":1,"raw":"{\"box\": [560, 502, 614, 543]}","latency":387}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":2,"raw":"{\"box\": [560, 502, 614, 543]}","latency":459}
+{"cond":"pixel","screen":"products-admin","item":"row5-price","repeat":3,"raw":"{\"box\": [560, 502, 614, 543]}","latency":415}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":1,"raw":"{\"box\": [680, 672, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":489}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":2,"raw":"{\"box\": [680, 672, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":405}
+{"cond":"pixel","screen":"products-admin","item":"row9-stock","repeat":3,"raw":"{\"box\": [680, 672, 745, 713], \"label\": \"the stock value of \\\"Laundry Detergent 2kg\\\"\"}","latency":337}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":1,"raw":"{\"box\": [763, 809, 832, 831]}","latency":342}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":2,"raw":"{\"box\": [763, 809, 832, 831]}","latency":352}
+{"cond":"pixel","screen":"products-admin","item":"row12-rating","repeat":3,"raw":"{\"box\": [763, 809, 832, 831]}","latency":469}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":1,"raw":"{\"box\": [609, 295, 671, 328]}","latency":457}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":2,"raw":"{\"box\": [609, 295, 671, 328]}","latency":412}
+{"cond":"pixel","screen":"products-admin","item":"header-cost","repeat":3,"raw":"{\"box\": [609, 295, 671, 328]}","latency":501}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":1,"raw":"{\"box\": [183, 847, 978, 867], \"label\": \"the footer text showing how many products are listed\"}","latency":466}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":2,"raw":"{\"box\": [183, 847, 979, 865]}","latency":371}
+{"cond":"pixel","screen":"products-admin","item":"table-footer","repeat":3,"raw":"{\"box\": [183, 847, 979, 865]}","latency":492}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":1,"raw":"{\"box\": [180, 20, 230, 52]}","latency":598}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":2,"raw":"{\"box\": [180, 20, 230, 52]}","latency":476}
+{"cond":"pixel","screen":"customer-c01","item":"c01-back","repeat":3,"raw":"{\"box\": [180, 20, 230, 52]}","latency":400}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":1,"raw":"{\"box\": [180, 65, 314, 92]}","latency":488}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":2,"raw":"{\"box\": [180, 65, 309, 92]}","latency":476}
+{"cond":"pixel","screen":"customer-c01","item":"c01-heading","repeat":3,"raw":"{\"box\": [180, 65, 314, 92]}","latency":413}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":1,"raw":"{\"box\": [304, 120, 526, 141]}","latency":558}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":2,"raw":"{\"box\": [304, 120, 526, 141]}","latency":496}
+{"cond":"pixel","screen":"customer-c01","item":"c01-name-value","repeat":3,"raw":"{\"box\": [304, 120, 526, 141]}","latency":438}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":1,"raw":"{\"box\": [201, 148, 295, 173]}","latency":524}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":2,"raw":"{\"box\": [201, 148, 295, 173]}","latency":461}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-label","repeat":3,"raw":"{\"box\": [201, 148, 295, 173]}","latency":441}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":1,"raw":"{\"box\": [301, 147, 521, 173]}","latency":431}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":2,"raw":"{\"box\": [301, 145, 521, 173]}","latency":425}
+{"cond":"pixel","screen":"customer-c01","item":"c01-phone-value","repeat":3,"raw":"{\"box\": [301, 145, 521, 173]}","latency":445}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":1,"raw":"{\"box\": [301, 172, 524, 203]}","latency":437}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":2,"raw":"{\"box\": [301, 172, 524, 203]}","latency":487}
+{"cond":"pixel","screen":"customer-c01","item":"c01-email-value","repeat":3,"raw":"{\"box\": [301, 172, 524, 203]}","latency":443}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":1,"raw":"{\"box\": [201, 236, 299, 260]}","latency":4496}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":2,"raw":"{\"box\": [201, 236, 299, 260], \"label\": \"the \\\"Card number\\\" label in the profile card\"}","latency":1621}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-label","repeat":3,"raw":"{\"box\": [201, 235, 299, 260]}","latency":3456}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":1,"raw":"{\"box\": [300, 232, 520, 264]}","latency":1639}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":2,"raw":"{\"box\": [300, 233, 520, 265]}","latency":1445}
+{"cond":"pixel","screen":"customer-c01","item":"c01-card-value","repeat":3,"raw":"{\"box\": [300, 233, 520, 265]}","latency":1619}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":1,"raw":"{\"box\": [305, 264, 525, 290], \"label\": \"the loyalty points value in the profile card\"}","latency":447}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":2,"raw":"{\"box\": [306, 263, 526, 290], \"label\": \"the loyalty points value in the profile card\"}","latency":967}
+{"cond":"pixel","screen":"customer-c01","item":"c01-points-value","repeat":3,"raw":"{\"box\": [305, 264, 524, 290], \"label\": \"the loyalty points value in the profile card\"}","latency":602}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":1,"raw":"{\"box\": [10, 87, 154, 122], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":617}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":2,"raw":"{\"box\": [10, 87, 154, 122], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}\n","latency":492}
+{"cond":"pixel","screen":"customer-c01","item":"c01-nav-customers","repeat":3,"raw":"{\"box\": [10, 87, 154, 122], \"label\": \"the \\\"Customers\\\" entry in the navigation menu\"}","latency":524}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":1,"raw":"{\"box\": [184, 20, 233, 52], \"label\": \"the \\\"Back\\\" button above the profile heading\"}","latency":452}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":2,"raw":"{\"box\": [184, 20, 233, 52], \"label\": \"the \\\"Back\\\" button above the profile heading\"}\n","latency":422}
+{"cond":"pixel","screen":"customer-c03","item":"c03-back","repeat":3,"raw":"{\"box\": [184, 20, 233, 52], \"label\": \"the \\\"Back\\\" button above the profile heading\"}\n","latency":850}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":1,"raw":"{\"box\": [304, 118, 520, 143], \"label\": \"the customer's full name value in the profile card\"}","latency":416}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":2,"raw":"{\"box\": [305, 119, 379, 140], \"label\": \"the customer's full name value in the profile card\"}","latency":458}
+{"cond":"pixel","screen":"customer-c03","item":"c03-name-value","repeat":3,"raw":"{\"box\": [304, 119, 379, 140], \"label\": \"the customer's full name value in the profile card\"}","latency":1166}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":1,"raw":"{\"box\": [203, 204, 295, 227], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":1162}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":2,"raw":"{\"box\": [203, 204, 295, 227]}","latency":410}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-label","repeat":3,"raw":"{\"box\": [203, 204, 299, 228], \"label\": \"the \\\"Address\\\" label in the profile card\"}","latency":448}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":1,"raw":"{\"box\": [299, 200, 492, 233], \"label\": \"the address value in the profile card\"}","latency":480}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":2,"raw":"{\"box\": [300, 202, 492, 232]}","latency":400}
+{"cond":"pixel","screen":"customer-c03","item":"c03-address-value","repeat":3,"raw":"{\"box\": [300, 203, 491, 234], \"label\": \"the address value in the profile card\"}","latency":451}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":1,"raw":"{\"box\": [300, 232, 496, 265], \"label\": \"the card number value in the profile card\"}","latency":486}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":2,"raw":"{\"box\": [300, 232, 495, 265], \"label\": \"the card number value in the profile card\"}","latency":586}
+{"cond":"pixel","screen":"customer-c03","item":"c03-card-value","repeat":3,"raw":"{\"box\": [299, 232, 500, 266], \"label\": \"the card number value in the profile card\"}","latency":452}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":1,"raw":"{\"box\": [203, 175, 299, 197]}","latency":518}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":2,"raw":"{\"box\": [203, 175, 298, 197], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":431}
+{"cond":"pixel","screen":"customer-c03","item":"c03-email-label","repeat":3,"raw":"{\"box\": [203, 175, 299, 197], \"label\": \"the \\\"Email\\\" label in the profile card\"}","latency":444}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":1,"raw":"{\"box\": [8, 951, 154, 985], \"label\": \"the logout button at the bottom of the sidebar\"}\n","latency":875}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":2,"raw":"{\"box\": [8, 951, 154, 985], \"label\": \"the logout button at the bottom of the sidebar\"}","latency":505}
+{"cond":"pixel","screen":"customer-c03","item":"c03-logout","repeat":3,"raw":"","latency":1220}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":1,"raw":"","latency":433}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":2,"raw":"{\"box\": [388, 447, 610, 477], \"label\": \"the username input field\"}","latency":946}
+{"cond":"pixel","screen":"login","item":"login-username","repeat":3,"raw":"{\"box\": [388, 447, 610, 477], \"label\": \"the username input field\"}","latency":410}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":1,"raw":"{\"box\": [388, 509, 609, 540], \"label\": \"the password input field\"}","latency":433}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":2,"raw":"{\"box\": [388, 509, 610, 540], \"label\": \"the password input field\"}","latency":495}
+{"cond":"pixel","screen":"login","item":"login-password","repeat":3,"raw":"{\"box\": [388, 508, 610, 540], \"label\": \"the password input field\"}","latency":522}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":1,"raw":"{\"box\": [389, 553, 609, 587], \"label\": \"the button that submits the sign-in form\"}","latency":434}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":2,"raw":"{\"box\": [389, 553, 609, 586], \"label\": \"the button that submits the sign-in form\"}","latency":535}
+{"cond":"pixel","screen":"login","item":"login-submit","repeat":3,"raw":"{\"box\": [388, 553, 609, 587]}","latency":441}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":1,"raw":"{\"box\": [388, 357, 569, 385], \"label\": \"the application title on the sign-in card\"}","latency":478}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":2,"raw":"{\"box\": [389, 357, 570, 385], \"label\": \"the application title on the sign-in card\"}","latency":511}
+{"cond":"pixel","screen":"login","item":"login-title","repeat":3,"raw":"{\"box\": [389, 357, 570, 385], \"label\": \"the application title on the sign-in card\"}","latency":458}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":1,"raw":"{\"box\": [389, 595, 609, 632], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":428}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":2,"raw":"{\"box\": [389, 597, 608, 631], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":388}
+{"cond":"pixel","screen":"login","item":"login-hint","repeat":3,"raw":"{\"box\": [389, 596, 609, 632], \"label\": \"the demo accounts hint text at the bottom of the card\"}","latency":949}
