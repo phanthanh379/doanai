@@ -46,6 +46,6 @@ Branch `rq3-seeded-bugs` chứa 5 lỗi phân quyền cố ý (staff thấy nút
 - **4 biến thể giao diện có kiểm soát** (chỉ đổi trình bày, không đổi logic): V0 gốc · V1 dark theme + đổi màu nhấn · V2 topbar + đảo thứ tự cột/nút · V3 đổi bộ icon + đổi nhãn nút/placeholder.
 - **18 test case baseline** chia 4 nhóm (A form ×5, B tìm kiếm/lọc ×4, C CRUD ×4, D thành phần tùy biến ×5) + 4 smoke test biến thể. Selector cố ý dùng CSS/XPath cấu trúc (nth-child, text khớp chính xác) — xem `KeHoach_DoAn.md` §2.
 
-Kế hoạch chi tiết: `KeHoach_DoAn.md`. Yêu cầu: Node.js >= 20 (đã kiểm chứng trên Node 24 LTS; Playwright 1.61 không chạy với Node < 18.19).
+Yêu cầu: Node.js >= 20 (đã kiểm chứng trên Node 24 LTS; Playwright 1.61 không chạy với Node < 18.19).
 
 **Setup máy mới + trạng thái hiện tại + việc tiếp theo: xem `docs/setup-new-machine.md`.**
