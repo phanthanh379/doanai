@@ -1,0 +1,16 @@
+{
+  "name": "tests-vlm",
+  "private": true,
+  "version": "0.1.0",
+  "description": "VLM-based GUI test suite (Midscene.js) + pilot",
+  "scripts": {
+    "pilot": "playwright test pilot.spec.ts",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@midscene/web": "^1.10.3",
+    "@playwright/test": "^1.61.1",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,503 @@
+/* Theme tokens. V1 overrides via html[data-variant='v1'] (dark + violet accent). */
+:root {
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --text: #1a1a2e;
+  --muted: #6b7280;
+  --border: #d9dee8;
+  --accent: #2f80ed;
+  --accent-text: #ffffff;
+  --danger: #e5484d;
+  --star: #f5a623;
+  font-family: Inter, system-ui, Segoe UI, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+html[data-variant='v1'] {
+  --bg: #14141f;
+  --surface: #1f1f2e;
+  --text: #e8e8f0;
+  --muted: #9aa0b0;
+  --border: #35354a;
+  --accent: #9b51e0;
+  --accent-text: #ffffff;
+  --danger: #ff6369;
+  --star: #ffd166;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.3rem; margin: 0 0 14px; }
+h3 { font-size: 1.1rem; margin: 0 0 12px; }
+
+button {
+  font-family: inherit;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: 0.92rem;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.btn {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+}
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+.btn-danger {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: #fff;
+}
+
+/* --- Layout: sidebar (default) vs topbar (V2) ----------------------------- */
+
+.app {
+  display: grid;
+  min-height: 100vh;
+}
+.layout-sidebar {
+  grid-template-columns: 210px 1fr;
+}
+.layout-sidebar .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+}
+.layout-topbar {
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+}
+.layout-topbar .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.layout-topbar .nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin-bottom: 10px;
+  color: var(--accent);
+}
+.layout-topbar .brand {
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.94rem;
+}
+.nav-link:hover {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+.nav-link.active {
+  background: var(--accent);
+  color: var(--accent-text);
+}
+.nav-spacer {
+  flex: 1;
+}
+.user-badge {
+  font-size: 0.84rem;
+  color: var(--muted);
+  padding: 6px 10px;
+}
+.role-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+}
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+}
+
+.page {
+  padding: 22px 26px;
+  min-width: 0;
+}
+
+/* --- Toolbar / filters ----------------------------------------------------- */
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.search-input {
+  width: 240px;
+}
+.filter-chips {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  font-size: 0.82rem;
+}
+.chip-clear {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* --- Table ------------------------------------------------------------------ */
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.product-table th,
+.product-table td {
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.product-table th {
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  font-weight: 600;
+}
+.product-table tbody tr:hover {
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+}
+.table-footer {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* --- Icon buttons & stars (non-semantic custom widgets) --------------------- */
+
+.actions-cell {
+  white-space: nowrap;
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--muted);
+  vertical-align: middle;
+}
+.icon-btn:hover {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent);
+}
+
+.stars {
+  display: inline-flex;
+  gap: 1px;
+  color: var(--star);
+}
+.star {
+  display: inline-flex;
+  cursor: default;
+}
+.rating-filter .star,
+.rating-input .star {
+  cursor: pointer;
+}
+.star:not(.filled) {
+  opacity: 0.45;
+}
+
+/* --- Chart card --------------------------------------------------------------- */
+
+.chart-card {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 14px;
+}
+.chart-title {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.chart-card canvas {
+  cursor: pointer;
+  display: block;
+}
+
+/* --- Modals -------------------------------------------------------------------- */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 20, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 22px;
+  width: 380px;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+.modal label {
+  display: block;
+  font-size: 0.86rem;
+  margin-top: 10px;
+}
+.modal label input,
+.modal label select {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+}
+.field-error {
+  color: var(--danger);
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+.form-rating {
+  margin-top: 12px;
+  font-size: 0.86rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+.modal dl {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  row-gap: 8px;
+  margin: 0;
+}
+.modal dt {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+.modal dd {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* --- Login ------------------------------------------------------------------------ */
+
+.login-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-card {
+  width: 340px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 26px 28px;
+}
+.login-sub {
+  color: var(--muted);
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+}
+.login-card label {
+  display: block;
+  font-size: 0.86rem;
+  margin-top: 10px;
+}
+.login-card input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+}
+.login-error {
+  color: var(--danger);
+  font-size: 0.84rem;
+  margin-top: 10px;
+}
+.login-submit {
+  width: 100%;
+  margin-top: 16px;
+}
+.login-hint {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-top: 14px;
+}
+
+/* --- Customers ---------------------------------------------------------------------- */
+
+.customer-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.customer-row {
+  display: grid;
+  grid-template-columns: 1fr 160px 100px;
+  gap: 10px;
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.customer-row:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+.customer-name {
+  font-weight: 600;
+}
+.customer-phone,
+.customer-points {
+  color: var(--muted);
+}
+.empty-note {
+  padding: 14px;
+  color: var(--muted);
+}
+
+/* --- Customer detail / PII card ------------------------------------------------------ */
+
+.back-btn {
+  margin-bottom: 12px;
+}
+.pii-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 22px;
+  max-width: 480px;
+}
+.pii-card dl {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  row-gap: 10px;
+  margin: 0;
+}
+.pii-card dt {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+.pii-card dd {
+  margin: 0;
+  font-size: 0.92rem;
+}
+.pii-card-number {
+  font-family: 'Consolas', monospace;
+  letter-spacing: 1px;
+}
+
+/* --- Settings -------------------------------------------------------------------------- */
+
+.settings-form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 22px;
+  max-width: 420px;
+}
+.settings-form label {
+  display: block;
+  font-size: 0.86rem;
+  margin-bottom: 12px;
+}
+.settings-form label input,
+.settings-form label select {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+}
+.toast {
+  margin-left: 12px;
+  color: var(--accent);
+  font-size: 0.86rem;
+}
+
+.denied {
+  padding: 40px;
+  text-align: center;
+  color: var(--danger);
+}

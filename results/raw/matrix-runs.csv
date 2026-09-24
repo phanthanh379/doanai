@@ -1,0 +1,17 @@
+timestamp,label,method,suite,variant,repeat,test_id,status,duration_ms,run_wall_ms,run_ai_calls,run_prompt_tokens,run_completion_tokens,run_ai_ms,run_cost_usd
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R1,failed,5483,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R2,failed,5485,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R3,failed,5485,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R4,failed,5469,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R5,timedOut,30055,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R6,passed,165,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R7,passed,150,31365,,,,,
+2026-09-21T10:38:28.477Z,rerun-cost-rbac-seeded,locator,rbac,v0,1,R8,passed,206,31365,,,,,
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R1,failed,3869,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R2,failed,3342,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R3,failed,3090,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R4,failed,3841,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R5,failed,5563,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R6,passed,3271,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R7,passed,2469,41005,11,22674,769,28904,0.005212
+2026-09-21T10:39:09.499Z,rerun-cost-rbac-seeded,vlm,rbac,v0,1,R8,passed,12145,41005,11,22674,769,28904,0.005212

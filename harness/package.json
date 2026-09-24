@@ -1,0 +1,10 @@
+{
+  "name": "harness",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Experiment matrix runner: {method} x {variant} x {repeat} -> CSV",
+  "type": "module",
+  "scripts": {
+    "matrix": "node run-matrix.mjs"
+  }
+}
