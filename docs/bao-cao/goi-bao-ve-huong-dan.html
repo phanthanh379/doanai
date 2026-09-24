@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hướng dẫn sử dụng gói bảo vệ đồ án — VLM cho kiểm thử GUI</title>
+<style>
+  :root { --blue:#4472c4; --orange:#ed7d31; --green:#538a35; --red:#c00000; --grey:#595959; --bg:#f7f8fa; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; margin:0; background:var(--bg); color:#222; line-height:1.65; }
+  .wrap { max-width:900px; margin:0 auto; padding:24px 20px 80px; }
+  header { border-bottom:4px solid var(--blue); padding:18px 0 14px; margin-bottom:20px; }
+  header h1 { margin:0 0 6px; font-size:26px; color:var(--blue); }
+  header p { margin:2px 0; color:var(--grey); }
+  h2 { font-size:20px; color:var(--blue); border-left:5px solid var(--blue); padding-left:10px; margin:36px 0 12px; }
+  h3 { font-size:16px; margin:22px 0 8px; }
+  table { border-collapse:collapse; width:100%; margin:10px 0 18px; background:#fff; font-size:14.5px; }
+  th,td { border:1px solid #d5d9e0; padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--blue); color:#fff; }
+  code { background:#eef1f6; border:1px solid #dbe0ea; border-radius:4px; padding:1px 5px; font-family:Menlo,Consolas,monospace; font-size:13px; }
+  pre { background:#22272e; color:#e6edf3; border-radius:8px; padding:12px 14px; overflow-x:auto; font-size:13px; line-height:1.55; }
+  pre code { background:none; border:none; color:inherit; padding:0; }
+  .step { background:#fff; border:1px solid #d5d9e0; border-radius:8px; padding:14px 16px; margin:12px 0; }
+  .step b.no { display:inline-block; background:var(--blue); color:#fff; border-radius:50%; width:26px; height:26px; text-align:center; line-height:26px; margin-right:8px; }
+  .ok { color:var(--green); font-weight:600; }
+  .warn { background:#fff7e6; border:1px solid #f0c36d; border-radius:8px; padding:10px 14px; margin:10px 0; }
+  .danger { background:#fdeceb; border:1px solid #e8a09a; border-radius:8px; padding:10px 14px; margin:10px 0; }
+  .muted { color:var(--grey); font-size:13.5px; }
+  ul { margin:6px 0 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Gói bảo vệ đồ án — Hướng dẫn sử dụng</h1>
+  <p><b>Đề tài:</b> Ứng dụng Vision-Language Model trong Kiểm thử Tự động Giao diện Người dùng Phần mềm</p>
+  <p><b>Sinh viên:</b> [Họ tên — MSSV] &nbsp;·&nbsp; <b>GVHD:</b> [Họ tên GVHD] &nbsp;·&nbsp; UIT — ĐHQG TP.HCM, 2026</p>
+  <p class="muted">Tài liệu này dành cho người chưa từng tham gia đồ án: đọc mục 1–2 để hiểu gói gồm gì; làm theo mục 3–6 để tự chạy được toàn bộ demo trên máy bất kỳ.</p>
+</header>
+
+<h2>1. Đồ án này làm gì? (tóm tắt 30 giây)</h2>
+<p>Đồ án so sánh định lượng <b>hai cách kiểm thử giao diện web tự động</b> trên cùng một ứng dụng mẫu và cùng 18 kịch bản kiểm thử:</p>
+<ul>
+  <li><b>Cách truyền thống (locator):</b> script Playwright định vị phần tử bằng CSS/XPath — chạy rất nhanh nhưng <span style="color:var(--red)">gãy hàng loạt khi giao diện đổi cách trình bày</span>.</li>
+  <li><b>Cách mới (VLM):</b> test viết bằng ngôn ngữ tự nhiên, mô hình thị giác-ngôn ngữ (Qwen3-VL qua Midscene.js) "nhìn" ảnh chụp màn hình để thao tác — <span class="ok">không gãy khi giao diện đổi</span>, đổi lại chậm hơn và tốn phí API (~$0.05/lượt chạy).</li>
+</ul>
+<p>Ứng dụng mẫu "Mini Shop Manager" có 4 biến thể giao diện (V0 gốc, V1 đổi màu, V2 đảo bố cục, V3 đổi nhãn/icon) để đo độ bền vững; kèm hai khảo sát mở rộng về kiểm thử phân quyền hiển thị và che dữ liệu nhạy cảm trước khi gửi ảnh lên API.</p>
+
+<h2>2. Ý nghĩa từng thư mục trong gói</h2>
+<table>
+  <tr><th style="width:170px">Thư mục</th><th>Chứa gì</th><th style="width:260px">Dùng khi nào</th></tr>
+  <tr>
+    <td><code>01-bao-cao/</code></td>
+    <td><b>bao-cao-doan.docx</b> — báo cáo đồ án 5 chương (mở bằng Word/Google Docs; nhấp phải vào Mục lục → Update Field để hiện mục lục).<br><b>DeCuong_...docx</b> — đề cương đã đăng ký.</td>
+    <td>Nộp, in, chấm điểm. <b>Đây là phần nộp chính.</b></td>
+  </tr>
+  <tr>
+    <td><code>02-slide/</code></td>
+    <td><b>slide-bao-ve.pptx</b> — 16 slide thuyết trình + 6 slide dự phòng trả lời phản biện (nằm sau trang "Slide dự phòng (Q&amp;A)").</td>
+    <td>Trình chiếu buổi bảo vệ.</td>
+  </tr>
+  <tr>
+    <td><code>03-so-lieu-hinh/</code></td>
+    <td><b>figures/</b> — 6 biểu đồ kết quả (chính là Hình 3.1, 4.1–4.5 trong báo cáo).<br><b>screenshots-app-v1/</b> — ảnh 4 biến thể giao diện.<br><b>masking-screens/</b> — ảnh gốc/đã che dữ liệu nhạy cảm.<br><b>matrix-runs.csv</b> — số liệu thô từng lượt test (880 dòng).<br><b>grounding-results.csv</b> — số liệu thô 360 lượt đo định vị.</td>
+    <td>Hội đồng muốn xem bằng chứng/số liệu gốc; đối chiếu với bảng trong báo cáo.</td>
+  </tr>
+  <tr>
+    <td><code>04-demo-offline/</code></td>
+    <td><b>vlm-suite-report.html</b> — nhật ký một lần chạy đủ bộ test VLM (27/27 đạt): từng bước AI làm gì, kèm ảnh màn hình nó "nhìn".<br><b>vlm-test-A3-report.html</b> — nhật ký 1 test đơn, gọn để chiếu.</td>
+    <td>Demo <b>không cần mạng, không cần API key</b> — chỉ cần mở bằng trình duyệt (nhấp đúp).</td>
+  </tr>
+  <tr>
+    <td><code>05-ma-nguon/</code></td>
+    <td><b>doanai-src.zip</b> — toàn bộ mã nguồn: ứng dụng mẫu, 2 bộ test, công cụ đo và script sinh hình/báo cáo.</td>
+    <td>Chạy demo trực tiếp (mục 3–6 dưới đây) hoặc kiểm tra tính tái lập của thực nghiệm.</td>
+  </tr>
+</table>
+
+<h2>3. Chuẩn bị môi trường (một lần, ~15 phút, cần mạng)</h2>
+
+<div class="step"><b class="no">1</b><b>Cài Node.js</b> (phiên bản 20 trở lên) — môi trường chạy JavaScript:
+<ul>
+  <li>Cách đơn giản nhất: vào <code>https://nodejs.org</code>, tải bản <b>LTS</b>, cài như phần mềm thường.</li>
+  <li>Kiểm tra đã cài xong: mở <b>Terminal</b> (macOS: Spotlight gõ "Terminal"; Windows: Start gõ "PowerShell") và chạy:</li>
+</ul>
+<pre><code>node --version</code></pre>
+<p class="muted">Thấy in ra <code>v20.x</code> trở lên là đạt.</p>
+</div>
+
+<div class="step"><b class="no">2</b><b>Giải nén mã nguồn.</b> Nhấp đúp <code>05-ma-nguon/doanai-src.zip</code> (hoặc chạy lệnh dưới). Kết quả: thư mục <code>doanai-src</code>.
+<pre><code>cd 05-ma-nguon
+unzip doanai-src.zip</code></pre>
+<p class="muted">Mọi lệnh từ đây trở đi chạy bên trong <code>doanai-src</code>. Gõ <code>cd doanai-src</code> để vào.</p>
+</div>
+
+<div class="step"><b class="no">3</b><b>Cài thư viện cho từng phần</b> — dự án gồm 3 phần độc lập, <u>phải cài trong từng thư mục con</u> (chạy <code>npm install</code> ở gốc sẽ báo lỗi "no package.json"):
+<pre><code># Đang đứng ở thư mục doanai-src
+
+cd app
+npm install
+cd ..
+
+cd tests-locator
+npm install
+npx playwright install chromium
+cd ..
+
+cd tests-vlm
+npm install
+cd ..</code></pre>
+<p class="muted">Lệnh <code>npx playwright install chromium</code> tải trình duyệt Chromium riêng cho việc chạy test (~150 MB).</p>
+</div>
+
+<div class="step"><b class="no">4</b><b>Kiểm tra môi trường</b> — chạy bộ test truyền thống, <b>không cần API key</b>:
+<pre><code>cd tests-locator
+npx playwright test</code></pre>
+<p>Sau ~40 giây phải thấy <span class="ok">30 passed</span> (bộ test tự khởi động ứng dụng, không cần mở gì trước). Thấy dòng này nghĩa là môi trường đã sẵn sàng.</p>
+</div>
+
+<h2>4. Mở ứng dụng mẫu (xem bằng mắt)</h2>
+
+<div class="step"><b class="no">5</b>Chạy ứng dụng:
+<pre><code>cd app
+npm run dev</code></pre>
+<p>Terminal in ra địa chỉ — mở trình duyệt vào <code>http://localhost:5173</code>, đăng nhập:</p>
+<ul>
+  <li><b>admin / admin123</b> — thấy đủ: nút xóa, cột Cost, trang Settings.</li>
+  <li><b>staff / staff123</b> — bị ẩn các phần trên (phục vụ kiểm thử phân quyền).</li>
+</ul>
+<p>Xem 4 biến thể giao diện (cùng chức năng, khác trình bày) bằng cách thêm tham số vào địa chỉ:</p>
+<pre><code>http://localhost:5173/products?variant=v0   ← gốc
+http://localhost:5173/products?variant=v1   ← đổi màu (dark)
+http://localhost:5173/products?variant=v2   ← đảo bố cục/cột
+http://localhost:5173/products?variant=v3   ← đổi nhãn nút/icon</code></pre>
+<p class="muted">Dữ liệu hoàn toàn giả lập trong trình duyệt — không có server/database thật. Muốn tắt app: bấm <code>Ctrl+C</code> trong Terminal.</p>
+</div>
+
+<h2>5. Demo "test truyền thống gãy khi giao diện đổi" (không cần mạng)</h2>
+
+<div class="step"><b class="no">6</b>Chạy 18 test truyền thống trên biến thể V2 (giao diện bị đảo bố cục):
+<pre><code>cd tests-locator
+
+# macOS / Linux:
+APP_VARIANT=v2 npx playwright test tests/group-a-forms.spec.ts tests/group-b-list-search.spec.ts tests/group-c-crud.spec.ts tests/group-d-custom-widgets.spec.ts --reporter=line
+
+# Windows PowerShell (2 lệnh):
+$env:APP_VARIANT="v2"
+npx playwright test tests/group-a-forms.spec.ts tests/group-b-list-search.spec.ts tests/group-c-crud.spec.ts tests/group-d-custom-widgets.spec.ts --reporter=line</code></pre>
+<p>Sau ~45 giây thấy <b style="color:var(--red)">9 failed / 9 passed</b> — một nửa bộ test gãy chỉ vì giao diện đổi cách trình bày. Đây chính là số liệu RQ1 trong báo cáo (Hình 4.1).</p>
+</div>
+
+<div class="step"><b class="no">7</b><b>Đối chứng phía VLM — mở report offline:</b> nhấp đúp <code>04-demo-offline/vlm-suite-report.html</code>. Chọn một test bất kỳ (ví dụ A3) để xem: câu lệnh ngôn ngữ tự nhiên → ảnh màn hình AI "nhìn" → vị trí nó bấm. Bộ test này đạt <span class="ok">18/18 trên cả 4 biến thể</span> mà không sửa dòng nào — vì nó mô tả <i>ý định</i> thay vì cấu trúc kỹ thuật.</p>
+</div>
+
+<h2>6. (Tùy chọn) Chạy test VLM "sống" — cần mạng + API key</h2>
+<div class="warn">Bước này gọi mô hình AI thật qua mạng, tốn phí rất nhỏ (&lt;$0.01/test). Chỉ cần khi muốn chứng minh hệ thống chạy thật trước hội đồng; nếu không, report offline ở mục 5 đã đủ bằng chứng.</div>
+
+<div class="step"><b class="no">8</b>Tạo file cấu hình key:
+<pre><code>cd tests-vlm
+cp .env.example .env        # Windows: copy .env.example .env</code></pre>
+<p>Mở file <code>.env</code> vừa tạo bằng editor bất kỳ, điền key OpenRouter (lấy tại <code>openrouter.ai</code> → Keys → Create Key; tài khoản cần nạp credit tối thiểu) vào đúng một dòng:</p>
+<pre><code>MIDSCENE_MODEL_API_KEY=sk-or-v1-xxxxxxxx</code></pre>
+<p class="muted">Các dòng khác giữ nguyên (model đã ghim, temperature 0). Không chia sẻ file này cho ai.</p>
+</div>
+
+<div class="step"><b class="no">9</b>Chạy 1 test VLM ngắn nhất:
+<pre><code>cd tests-vlm
+npx playwright test tests/group-a-forms.spec.ts -g "A2"</code></pre>
+<p>Sau ~40–90 giây thấy <span class="ok">1 passed</span>. Nhật ký chi tiết (kèm ảnh từng bước) tự sinh trong <code>tests-vlm/midscene_run/report/</code> — mở file HTML mới nhất bằng trình duyệt.</p>
+</div>
+
+<h2>7. Sự cố thường gặp</h2>
+<table>
+  <tr><th style="width:280px">Hiện tượng</th><th>Nguyên nhân & cách xử lý</th></tr>
+  <tr><td><code>npm ERR! ENOENT ... package.json</code></td><td>Đang chạy <code>npm install</code> ở thư mục gốc — phải <code>cd</code> vào từng thư mục con (<code>app</code>, <code>tests-locator</code>, <code>tests-vlm</code>) rồi mới cài (bước 3).</td></tr>
+  <tr><td><code>node: command not found</code></td><td>Chưa cài Node.js hoặc chưa mở lại Terminal sau khi cài — làm lại bước 1.</td></tr>
+  <tr><td>Test báo lỗi <code>401</code></td><td>API key sai hoặc chưa kích hoạt — kiểm tra dòng <code>MIDSCENE_MODEL_API_KEY</code> trong <code>tests-vlm/.env</code>.</td></tr>
+  <tr><td>Test báo lỗi <code>402</code></td><td>Tài khoản OpenRouter hết credit — nạp thêm.</td></tr>
+  <tr><td>Trang <code>localhost:5173</code> không mở được</td><td>App chưa chạy — làm bước 5, giữ Terminal đó mở trong khi xem.</td></tr>
+  <tr><td>Test VLM chạy rất lâu rồi timeout</td><td>Mạng chặn <code>openrouter.ai</code> — thử phát 4G từ điện thoại, hoặc dùng report offline (mục 5).</td></tr>
+</table>
+
+<h2>8. Tính tái lập của số liệu</h2>
+<p>Mọi hình và bảng trong báo cáo sinh lại được từ dữ liệu thô đã kèm trong gói: sau khi cài Python 3 + matplotlib (<code>pip install matplotlib</code>), chạy tại thư mục <code>doanai-src</code>:</p>
+<pre><code>python3 harness/make-figures.py</code></pre>
+<p>Kết quả xuất ra <code>results/figures/</code> và <code>results/analysis-summary.md</code> — đối chiếu được với <code>03-so-lieu-hinh/</code> trong gói. Mã nguồn đầy đủ cũng được công khai tại <code>https://github.com/[TAI-KHOAN-GITHUB]/doanai</code>.</p>
+
+<p class="muted" style="margin-top:40px;border-top:1px solid #d5d9e0;padding-top:12px">
+Gói được sinh tự động từ mã nguồn đồ án (script <code>harness/make-defense-package.sh</code>). Mọi thắc mắc về nội dung: xem báo cáo <code>01-bao-cao/bao-cao-doan.docx</code>, đặc biệt Chương 3 (phương pháp) và Phụ lục A (tái lập).
+</p>
+
+</div>
+</body>
+</html>
