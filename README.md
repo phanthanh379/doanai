@@ -6,7 +6,6 @@ So sánh thực nghiệm định lượng giữa kiểm thử GUI **locator-base
 
 | Thư mục | Nội dung |
 |---------|----------|
-| `docs/` | Đề cương, hướng dẫn GVHD, ghi chú 15 bài báo, báo cáo |
 | `app/` | Ứng dụng web thực nghiệm (React + Vite) + biến thể giao diện V0–V3 |
 | `tests-locator/` | Bộ test baseline Playwright (locator-based) |
 | `tests-vlm/` | Bộ test Midscene.js (ngôn ngữ tự nhiên) + pilot |
